@@ -2,7 +2,7 @@
 int input()
 {
   int a;
-  printf("Enter the value\n");
+  printf("Enter the value:");
   scanf("%d",&a);
   return a;
 }
