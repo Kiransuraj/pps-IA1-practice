@@ -1,13 +1,14 @@
+#include<stdio.h>
 typedef struct _complex
 {
-  float real, imainary;
+  float real, imaginary;
 } Complex;
 Complex input_complex()
 {
   Complex c;
-  printf("Enter the real value");
+  printf("Enter the real value:");
   scanf("%f",&c.real);
-  printf("Enter the imaginary value");
+  printf("Enter the imaginary value:");
   scanf("%f",&c.imaginary);
   return c;
 }
