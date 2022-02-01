@@ -1,7 +1,8 @@
+#include<stdio.h>
 int input_n()
 {
   int n;
-  printf("Enter the value\n");
+  printf("Enter the value:");
   scanf("%d",&n);
   return n;
 }
