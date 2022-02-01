@@ -21,9 +21,9 @@ int cmp(int a,int b,int c)
     return c;
   }
 }
-int output(int cmp)
+int output(int a,int b,int c,int big)
 {
-  printf("The largest number is %d\n",cmp);
+  printf("The largest number between %d %d %d is %d\n",a,b,c,big);
 }
 int main()
 {
@@ -32,6 +32,6 @@ int main()
  b=input();
  c=input();
  Ans=cmp(a,b,c);
- output(Ans);
+ output(a,b,c,Ans);
  return 0;
 }
